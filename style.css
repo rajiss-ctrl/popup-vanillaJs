@@ -1,0 +1,60 @@
+body {
+    font-size: 15pt;
+    background: black;
+    display: grid;
+    grid-template-columns: 20% 20% 56%;
+    grid-gap: 10px;
+    color: #fff;
+}
+
+.joshua{
+  background: black;
+  width: 400px;
+  height: 500px;
+  border-radius: 0 0 200px 200px;
+  border: .5px solid grey;
+  padding: 15px;
+  font-size: 20px;
+  color: palegreen;
+}
+.btn{
+  width: 50px;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  background:red ;
+  padding: 10px;
+border-radius: 10px;
+margin-bottom: 20px;
+border: 1px solid blue;
+padding: 10px;
+}
+
+
+.popup{
+  width: 40%;
+  background: #e1e1e1;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 200px;
+  left: 45%;
+  padding: 15px;
+  color: black;
+}
+
+.xt{
+  position: absolute;
+  text-decoration: none;
+  background: red;
+  width: 30px;
+  border-radius:10px;
+  text-align: center;
+  color: yellow;
+  right: 10px;
+}
+.popup p{
+  padding-top: 15px;
+}
